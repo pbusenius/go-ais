@@ -3,13 +3,12 @@ package ais_test
 import (
 	"bufio"
 	"compress/gzip"
+	"go-ais"
+	"go-ais/aisnmea"
 	"io"
 	"os"
 	"strings"
 	"testing"
-
-	"github.com/BertoldVdb/go-ais"
-	"github.com/BertoldVdb/go-ais/aisnmea"
 )
 
 func runTest(b *testing.B, parseFast bool) {

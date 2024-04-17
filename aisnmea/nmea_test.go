@@ -3,12 +3,12 @@ package aisnmea
 import (
 	"bufio"
 	"bytes"
+	"go-ais"
 	"log"
 	"os"
 	"strings"
 	"testing"
 
-	"github.com/BertoldVdb/go-ais"
 	"github.com/adrianmo/go-nmea"
 )
 

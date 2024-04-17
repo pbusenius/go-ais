@@ -1,9 +1,9 @@
 package aisnmea
 
 import (
+	"go-ais"
 	"sync"
 
-	"github.com/BertoldVdb/go-ais"
 	nmea "github.com/adrianmo/go-nmea"
 )
 
