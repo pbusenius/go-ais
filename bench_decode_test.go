@@ -41,6 +41,10 @@ func readFileTest(b *testing.B, benchFile string, parseFast bool) {
 		b.Fatal("could not open ", benchFile, "\nerr:\n", err)
 	}
 	stat, err := fp.Stat()
+	if err != nil {
+		b.Fatal("could not get file stats")
+	}
+
 	b.SetBytes(stat.Size())
 	defer fp.Close()
 
