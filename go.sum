@@ -1,5 +1,3 @@
-github.com/BertoldVdb/go-ais v0.1.0 h1:lGUG2W62OHE5+CbjNHsaLj3FHDpn6Iy0FU9qC9tQS2o=
-github.com/BertoldVdb/go-ais v0.1.0/go.mod h1:V2+fRhMf6AWOIEGEjgGAImHm+D/gCe6iGTUHvDEZf3U=
 github.com/adrianmo/go-nmea v1.3.0 h1:BFrLRj/oIh+DYujIKpuQievq7X3NDHYq57kNgsfr2GY=
 github.com/adrianmo/go-nmea v1.3.0/go.mod h1:u8bPnpKt/D/5rll/5l9f6iDfeq5WZW0+/SXdkwix6Tg=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
